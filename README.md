@@ -2,6 +2,12 @@
 
 The NYC Real Estate Sales Dashboard is a powerful, interactive tool designed for real estate professionals, investors, and homebuyers seeking in-depth insights into the New York City real estate market. Leveraging data from the NYC Department of Finance's [Rolling Sales Data](https://www.nyc.gov/site/finance/taxes/property-rolling-sales-data.page), this application provides comprehensive analyses of real estate transactions across the five boroughs of New York City.
 
+## Live Demo
+
+Check out the live deployment of the NYC Real Estate Sales Dashboard on Render:
+
+[https://nyc-re-dashboard.onrender.com/](https://nyc-re-dashboard.onrender.com/)
+
 ## Features
 
 - **Exploratory Data Analysis (EDA)**: Dive into an interactive exploration of the data through various visualizations, including histograms, scatterplots, and time series analyses. Filter and compare sales activity and pricing across neighborhoods or ZIP codes.
@@ -68,7 +74,31 @@ To launch the NYC Real Estate Sales Dashboard on your local machine, follow thes
    streamlit run app.py
    ```
 
-5. Open your web browser and visit `http://localhost:8501` to access the NYC Real Estate Sales Dashboard.
+5. Open your web browser and visit `http://localhost:10000` (streamlit should launch a browser window for you) to access the NYC Real Estate Sales Dashboard.
+
+## Deploying on Render
+
+To deploy the NYC Real Estate Sales Dashboard on Render, follow these steps:
+
+1. Sign up for a free account on [Render](https://render.com/).
+
+2. Connect your GitHub repository containing the project to Render.
+
+3. Create a new web service on Render and select the repository.
+
+4. Configure the following settings for the web service:
+   - **Environment**: Python
+   - **Build Command**: `pip install -r requirements.txt`
+   - **Start Command**: `streamlit run app.py`
+
+5. Add the following environment variables in the Render web service settings:
+   - `PYTHON_VERSION`: 3.9.0
+
+6. Click on "Create Web Service" to deploy the application.
+
+7. Once the deployment is complete, you will receive a unique URL for your deployed app.
+
+Your NYC Real Estate Sales Dashboard is now live and accessible via the provided URL.
 
 ## Contributing
 
@@ -80,6 +110,6 @@ The NYC Real Estate Sales Dashboard is open-source software licensed under the [
 
 ## Contact
 
-For any inquiries or feedback, please contact the developer, Rasmus Foyer, at rasmus.foyer@gmail.com or call at 917-753-5574.
+For any inquiries or feedback, please contact the developer, (ME!) Rasmus Foyer, at rasmus.foyer@gmail.com or call at 917-753-5574.
 
 Happy exploring and analyzing the NYC real estate market!
