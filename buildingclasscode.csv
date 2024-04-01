@@ -1,0 +1,221 @@
+id,name
+A0,ONE FAMILY DWELLINGS: Cape Cod
+A1,"ONE FAMILY DWELLINGS: Two Stories Detached (Small or Moderate Size, With or Without Attic)"
+A2,ONE FAMILY DWELLINGS: One Story (Permanent Living Quarters)
+A3,ONE FAMILY DWELLINGS: Large Suburban Residence
+A4,ONE FAMILY DWELLINGS: City Residence
+A5,ONE FAMILY DWELLINGS: Attached or Semi-Detached
+A6,ONE FAMILY DWELLINGS: Summer Cottages/Mobile Homes/Trailers
+A7,ONE FAMILY DWELLINGS: Mansion Type
+A8,ONE FAMILY DWELLINGS: Bungalow Colony/Land Coop Owned
+A9,"ONE FAMILY DWELLINGS: Miscellaneous (Old Buildings, Attached & Semi-Detached Frame Houses, etc.)"
+B1,TWO FAMILY DWELLINGS: Brick
+B2,TWO FAMILY DWELLINGS: Frame
+B3,TWO FAMILY DWELLINGS: Converted (From One Family)
+B9,"TWO FAMILY DWELLINGS: Miscellaneous (City Type, Old, etc.)"
+C0,WALK UP APARTMENTS: Three Families
+C1,WALK UP APARTMENTS: Over Six Families Without Stores
+C2,WALK UP APARTMENTS: Five to Six Families
+C3,WALK UP APARTMENTS: Four Families
+C4,WALK UP APARTMENTS: Old Law Tenements
+C5,WALK UP APARTMENTS: Converted Dwelling or Rooming House
+C6,WALK UP APARTMENTS: Cooperative (Other Than Condominiums)
+C7,WALK UP APARTMENTS: Over Six Families With Stores
+C8,WALK UP APARTMENTS: Co-Op Conversion From Loft/Warehouse
+C9,WALK UP APARTMENTS: Garden Apartments/Mobile Home Park/Trailer Park
+D0,ELEVATOR APARTMENTS: Co-op Conversion From Loft/Warehouse
+D1,ELEVATOR APARTMENTS: Semi-fireproof (Without Stores)
+D2,ELEVATOR APARTMENTS: Artists in Residence
+D3,ELEVATOR APARTMENTS: Fireproof (Standard Construction Without Stores)
+D4,ELEVATOR APARTMENTS: Cooperatives (Other Than Condominiums)
+D5,ELEVATOR APARTMENTS: Converted
+D6,ELEVATOR APARTMENTS: Fireproof - With Stores
+D7,ELEVATOR APARTMENTS: Semi-Fireproof With Stores
+D8,ELEVATOR APARTMENTS: Luxury Type Miscellaneous
+D9,ELEVATOR APARTMENTS: Miscellaneous
+E1,WAREHOUSES: Fireproof
+E3,WAREHOUSES: Semi-Fireproof
+E4,"WAREHOUSES: Frame, Metal"
+E5,WAREHOUSES: Governmental Warehouses
+E7,"WAREHOUSES: Warehouse, Self Storage"
+E9,WAREHOUSES: Miscellaneous
+F1,FACTORY AND INDUSTRIAL BUILDINGS: Heavy Manufacturing (Fireproof)
+F2,"FACTORY AND INDUSTRIAL BUILDINGS: Special Construction (Printing Plant, etc., Fireproof)"
+F4,FACTORY AND INDUSTRIAL BUILDINGS: Semi-Fireproof Light Manufacturing Tank Farms Miscellaneous
+F5,FACTORY AND INDUSTRIAL BUILDINGS: Light Manufacturing
+F8,FACTORY AND INDUSTRIAL BUILDINGS: Tank Farms
+F9,FACTORY AND INDUSTRIAL BUILDINGS: Miscellaneous
+G0,GARAGES & GASOLINE STATIONS: Residential Tax Class 1 Garage
+G1,GARAGES & GASOLINE STATIONS: Garage: Two or More Stories
+G2,GARAGES & GASOLINE STATIONS: Garage: One Story (Semi-Fireproof or Fireproof)
+G3,GARAGES & GASOLINE STATIONS: Garage and Gas Station Combined
+G4,GARAGES & GASOLINE STATIONS: Gas Station: With Enclosed Lubrication Plant or Workshop
+G5,GARAGES & GASOLINE STATIONS: Gas Station: Without Enclosed Lubrication Plant or Workshop
+G6,GARAGES & GASOLINE STATIONS: Licensed Parking Lot
+G7,GARAGES & GASOLINE STATIONS: Unlicensed Parking Lot
+G8,GARAGES & GASOLINE STATIONS: Garage With Showroom
+G9,GARAGES & GASOLINE STATIONS: Miscellaneous
+H1,HOTELS: Luxury Type: Built Prior to 1960
+H2,HOTELS: Luxury Type: Built After 1960
+H3,HOTELS: Transient Occupancy-Midtown Mn Area
+H4,HOTELS: Motels
+H5,"HOTELS: Private Club, Luxury Type"
+H6,HOTELS: Apartment Hotels
+H7,HOTELS: Apartment Hotels-Co-op Owned
+H8,HOTELS: Dormitories
+H9,HOTELS: Miscellaneous HOTELS
+HB,HOTELS: Stylish Full Service Luxury Hotel
+HH,HOTELS: Shared Facilities Budget Hotel
+HR,HOTELS: Affordable Shared Room Housing
+HS,HOTELS: Long-term Fully Equipped Units
+I1,"HOSPITALS AND HEALTH: Hospitals, Sanitariums, Mental Institutions"
+I2,HOSPITALS AND HEALTH: Infirmary
+I3,HOSPITALS AND HEALTH: Dispensary
+I4,HOSPITALS AND HEALTH: Staff Facilities
+I5,"HOSPITALS AND HEALTH: Health Center, Child Center, Clinic"
+I6,HOSPITALS AND HEALTH: Nursing Home
+I7,HOSPITALS AND HEALTH: Adult Care Facility
+I9,HOSPITALS AND HEALTH: Miscellaneous
+J1,THEATRES: Art Type (Seating Capacity Under 400 Seats)
+J2,THEATRES: Art Type (Seating Capacity Over 400 Seats)
+J3,THEATRES: Motion Picture Theatre With Balcony
+J4,THEATRES: Legitimate Theatres (Theatre Sole Use of Building)
+J5,THEATRES: Theatre as Part of Building of Other Use
+J6,THEATRES: T.V. Studios
+J7,THEATRES: Off-Broadway Type
+J8,THEATRES: Multi-Motion Picture Theatre
+J9,THEATRES: Miscellaneous
+K1,STORE BUILDINGS: One Story Store Building
+K2,STORE BUILDINGS: Two Story or Store and Office
+K3,"STORE BUILDINGS: Department Stores, Multi-Story"
+K4,"STORE BUILDINGS: Stores, Apartments Above"
+K5,"STORE BUILDINGS: Diners, Franchised Type Stand"
+K6,STORE BUILDINGS: Shopping Centers With Parking Facilities
+K7,STORE BUILDINGS: Funeral Home
+K8,STORE BUILDINGS: Big Box Retail With or Without Parking Miscellaneous
+K9,STORE BUILDINGS: Miscellaneous
+L1,LOFT BUILDINGS: Over Eight Stores (Mid-Manhattan Type With or Without Stores)
+L2,LOFT BUILDINGS: Fireproof: Loft and Storage Type (Without Retail Stores)
+L3,LOFT BUILDINGS: Semi-Fireproof
+L8,LOFT BUILDINGS: With Retail Stores (Other Than Type 1)
+L9,LOFT BUILDINGS: Miscellaneous
+M1,"CHURCHES, SYNAGOGUES, ETC.: Church, Synagogue, Chapel"
+M2,"CHURCHES, SYNAGOGUES, ETC.: Mission House (Non-Residential)"
+M3,"CHURCHES, SYNAGOGUES, ETC.: Parsonage, Rectory"
+M4,"CHURCHES, SYNAGOGUES, ETC.: Convents"
+M9,"CHURCHES, SYNAGOGUES, ETC.: Miscellaneous religious"
+N1,ASYLUMS AND HOMES: Asylums
+N2,"ASYLUMS AND HOMES: Homes for Indigent Children, Aged, Homeless"
+N3,ASYLUMS AND HOMES: Orphanages
+N4,ASYLUMS AND HOMES: Juvenile Detention Houses
+N9,ASYLUMS AND HOMES: Miscellaneous
+O1,OFFICE BUILDINGS: Fireproof: Up to Nine Stories
+O2,OFFICE BUILDINGS: Ten Stories & Over (Side Street Type)
+O3,OFFICE BUILDINGS: Ten Stories & Over (Main Avenue Type)
+O4,OFFICE BUILDINGS: Tower Type
+O5,OFFICE BUILDINGS: Semi-Fireproof
+O6,OFFICE BUILDINGS: Bank Building (Designed Exclusively for Banking)
+O7,OFFICE BUILDINGS: Professional Buildings
+O8,OFFICE BUILDINGS: With Residential Apartments
+O9,OFFICE BUILDINGS: Miscellaneous
+P1,PLACES OF PUBLIC ASSEMBLY: Concert Halls
+P2,PLACES OF PUBLIC ASSEMBLY: Lodge Rooms
+P3,"PLACES OF PUBLIC ASSEMBLY: YWCA,YMCA,YWHA,YMHA,PAL"
+P4,PLACES OF PUBLIC ASSEMBLY: Beach Club
+P5,PLACES OF PUBLIC ASSEMBLY: Community Center
+P6,"PLACES OF PUBLIC ASSEMBLY: Amusement Places, Bathhouses, Boat"
+P7,PLACES OF PUBLIC ASSEMBLY: Museum
+P8,PLACES OF PUBLIC ASSEMBLY: Library
+P9,PLACES OF PUBLIC ASSEMBLY: Miscellaneous Including Riding Academies and Stables
+Q0,OUTDOOR RECREATION: Open Space
+Q1,OUTDOOR RECREATION: Parks
+Q2,OUTDOOR RECREATION: Playgrounds
+Q3,OUTDOOR RECREATION: Outdoor Pools
+Q4,OUTDOOR RECREATION: Beaches
+Q5,OUTDOOR RECREATION: Golf Courses
+Q6,"OUTDOOR RECREATION: Stadium, Race Tracks, Baseball Fields"
+Q7,OUTDOOR RECREATION: Tennis Courts
+Q8,OUTDOOR RECREATION: Marinas/Yacht Clubs
+Q9,OUTDOOR RECREATION: Miscellaneous
+R0,CONDOMINIUMS: Condo Billing Lot
+R1,"CONDOMINIUMS: 2-10 Unit Residential Bldg, Residential Unit"
+R2,"CONDOMINIUMS: Walk-up, Residential Unit"
+R3,"CONDOMINIUMS: 1-3 Story, Residential Unit"
+R4,"CONDOMINIUMS: Apartment/Elevated, Residential Unit"
+R5,CONDOMINIUMS: Miscellaneous Commercial
+R6,"CONDOMINIUMS: 1-3 Units, Residential Unit"
+R7,"CONDOMINIUMS: 1-3 Units, Commercial Unit"
+R8,"CONDOMINIUMS: 2-10 Unit Residential Bldg, Commercial Unit"
+R9,CONDOMINIUMS: Condop
+RA,"CONDOMINIUMS: Cultural, Medical, Educational, etc."
+RB,CONDOMINIUMS: Office Buildings
+RC,CONDOMINIUMS: Commercial Building (Mixed Commercial Condo Building Classification Codes)
+RD,CONDOMINIUMS: Residential Building (Mixed Residential Condo Building Classification Codes)
+RG,CONDOMINIUMS: Indoor Parking
+RH,CONDOMINIUMS: Hotel/Boatel
+RI,CONDOMINIUMS: Mixed Warehouse/Factory/Industrial & Commercial
+RK,CONDOMINIUMS: Store Buildings - Retail
+RM,CONDOMINIUMS: Mixed Residential & Commercial Building (Mixed Residential & Commercial)
+RR,CONDOMINIUMS: Condominium Rental
+RS,CONDOMINIUMS: Non-Business Storage Space
+RW,CONDOMINIUMS: Warehouse/Factory/Industrial
+RX,"CONDOMINIUMS: Mixed Residential, Commercial & Industrial"
+RZ,CONDOMINIUMS: Mixed Residential & Warehouse
+S0,RESIDENCE MULTIPLE USE: Primarily One Family with Two Stores or Offices
+S1,RESIDENCE MULTIPLE USE: Primarily One Family With Store or Office
+S2,RESIDENCE MULTIPLE USE: Primarily Two Family With Store or Office
+S3,RESIDENCE MULTIPLE USE: Primarily Three Family With Store or Office
+S4,RESIDENCE MULTIPLE USE: Primarily Four Family With Store or Office
+S5,RESIDENCE MULTIPLE USE: Primarily Five to Six Family With Store or Office
+S9,RESIDENCE MULTIPLE USE: Primarily One to Six Families with Stores or Offices
+T1,"TRANSPORTATION FACILITIES: Airports, Air Fields, Terminals"
+T2,"TRANSPORTATION FACILITIES: Piers, Docks, Bulkheads"
+T9,TRANSPORTATION FACILITIES: Miscellaneous
+U0,UTILITY: Utility Company Land and Buildings
+U1,"UTILITY: Bridges, Tunnels, Highways"
+U2,"UTILITY: Electric Utilities, Gas"
+U3,UTILITY: Ceiling R. R.
+U4,UTILITY: Telephone Utilities
+U5,UTILITY: Communications Facilities (Other Than Telephone)
+U6,"UTILITY: Railroads, Private Ownership"
+U7,"UTILITY: Transportation, Public Ownership"
+U8,UTILITY: Revocable Consents
+U9,UTILITY: Miscellaneous (Including Private Improvements in City Land and in Public Places)
+V0,"VACANT LAND: Zoned Residential, Except Not Manhattan Below 110 St"
+V1,VACANT LAND: Not Zoned Residential or Manhattan Below 110 St
+V2,"VACANT LAND: Not Zoned Residential, but Adjacent to Tax Class 1 Dwelling"
+V3,"VACANT LAND: Zoned Primarily Residential, Except Not Manhattan Below 110 St"
+V4,VACANT LAND: Police or Fire Department
+V5,VACANT LAND: School Site or Yard
+V6,"VACANT LAND: Library, Hospitals or Museums"
+V7,VACANT LAND: Port Authority of NY and NJ
+V8,VACANT LAND: State & U.S.
+V9,VACANT LAND: Miscellaneous (Department of Real Estate and Other Public Places)
+W1,EDUCATIONAL STRUCTURES: Public Elementary Junior and Senior High Schools
+W2,"EDUCATIONAL STRUCTURES: Parochial Schools, Yeshivas"
+W3,EDUCATIONAL STRUCTURES: Schools or Academies
+W4,EDUCATIONAL STRUCTURES: Training Schools
+W5,EDUCATIONAL STRUCTURES: City University
+W6,EDUCATIONAL STRUCTURES: Other Colleges and Universities
+W7,EDUCATIONAL STRUCTURES: Theological Seminaries
+W8,EDUCATIONAL STRUCTURES: Other Private Schools
+W9,EDUCATIONAL STRUCTURES: Miscellaneous
+Y1,GOVERNMENT: Fire Department
+Y2,GOVERNMENT: Police Department
+Y3,"GOVERNMENT: Prisons, Jails, Houses of Detention "
+Y4,GOVERNMENT: Military and Naval
+Y5,GOVERNMENT: Department of Real Estate
+Y6,GOVERNMENT: Department of Sanitation
+Y7,GOVERNMENT: Department of Ports and Terminals
+Y8,GOVERNMENT: Department of Public Works
+Y9,GOVERNMENT: Department of Environmental Protection
+Z0,"MISCELLANEOUS: Tennis Court, Pool, Shed, etc. Used in Conjunction with Tax Class 1"
+Z1,MISCELLANEOUS: Court House
+Z2,MISCELLANEOUS: Public Parking Areas
+Z3,MISCELLANEOUS: Post Office
+Z4,MISCELLANEOUS: Foreign Governments
+Z5,MISCELLANEOUS: United Nations
+Z6,MISCELLANEOUS: Land under Water
+Z7,MISCELLANEOUS: Easements
+Z8,MISCELLANEOUS: Cemeteries
+Z9,MISCELLANEOUS: Other
