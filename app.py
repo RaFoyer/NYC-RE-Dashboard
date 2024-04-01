@@ -195,6 +195,7 @@ def data_cleaning_pipeline(borough_dataframes):
         df = fill_missing_values(df, columns_to_fill)
         df = drop_rows_without_zipcode(df)  # Drop rows without a zipcode
         df = convert_data_types(df, data_type_conversions)
+        df['sale_price_millions'] = df['sale_price'] / 1e6
         df = add_price_per_sqft(df)
         
         # Prepare time series data
@@ -203,7 +204,7 @@ def data_cleaning_pipeline(borough_dataframes):
         borough_dataframes[borough] = df
     
     cleaning_message.success("Data cleaning completed.")
-    time.sleep(3)  # Delay for 10 seconds before clearing the message
+    time.sleep(3)  # Delay for 3 seconds before clearing the message
     cleaning_message.empty()  # Clear the message
 
     return borough_dataframes
@@ -355,9 +356,6 @@ def display_eda(borough_dataframes):
     # Allow the user to select a borough for EDA
     borough_selection = st.selectbox("Select a borough for EDA:", list(borough_dataframes.keys()), key='eda_borough')
     df = borough_dataframes[borough_selection].copy()
-
-    # Convert sale price to millions for clarity
-    df['sale_price_millions'] = df['sale_price'] / 1e6
 
     df['price_per_sqft'] = df['sale_price_millions'] * 1e6 / df['gross_square_feet']
 
@@ -774,7 +772,6 @@ def display_comparative_analysis(borough_dataframes):
     borough_colors = {borough: available_colors[i] for i, borough in enumerate(borough_names)}
 
     for borough, df in borough_dataframes.items():
-        df['sale_price_millions'] = df['sale_price'] / 1e6  # Convert sale price to millions
         comparison_metrics['Average Sale Price (Millions $)'].append(df['sale_price_millions'].mean())
         comparison_metrics['Total Sales Volume (Millions $)'].append(df['sale_price_millions'].sum())
         comparison_metrics['Number of Sales'].append(len(df))
